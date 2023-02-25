@@ -1,14 +1,16 @@
 import axios from 'axios';
+import styles from '@/styles/Coins.module.css';
+
 
 const CoinList = ({ coinData }) => {
   console.log(coinData);
   return (
-    <div>
+    <div className={styles.row}>
       {coinData.coins.map((coin) => {
         return (
-          <div>
+          <div key={coin.id} className={styles.coins}>
             <h1>{coin.name}</h1>
-            <img src={coin.icon} alt="coin" />
+            <img src={coin.icon} alt="coin" className={styles.coinimg}/>
             <p>{coin.price}</p>
           </div>
         );
