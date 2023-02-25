@@ -1,3 +1,5 @@
+<h1>goto /coins to get Infoo du dunnn</h1>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
